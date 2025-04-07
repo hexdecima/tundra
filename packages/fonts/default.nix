@@ -7,4 +7,5 @@ pkgs: {
   departure-mono-nerd-font = import ./departure-mono-nerd-font pkgs;
   zpix-nerd-font = import ./zpix-nerd-font pkgs;
   monofoki-nerd-font = import ./monofoki-nerd-font pkgs;
+  saxmono-nerd-font = import ./saxmono-nerd-font pkgs;
 }

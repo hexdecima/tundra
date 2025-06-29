@@ -11,5 +11,5 @@
       });
     };
 
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
 }

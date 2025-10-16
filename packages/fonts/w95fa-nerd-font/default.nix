@@ -13,7 +13,7 @@ stdenvNoCC.mkDerivation (final: {
 
     mkdir -p $out/share/fonts/opentype
 
-    nerd-font-patcher -c -q --out "$out"/share/fonts/truetype $src 2> /dev/null;
+    nerd-font-patcher -c -q --out "$out"/share/fonts/opentype $src 2> /dev/null;
 
     runHook postInstall
   '';

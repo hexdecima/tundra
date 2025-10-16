@@ -8,4 +8,5 @@ pkgs: {
   zpix-nerd-font = import ./zpix-nerd-font pkgs;
   monofoki-nerd-font = import ./monofoki-nerd-font pkgs;
   saxmono-nerd-font = import ./saxmono-nerd-font pkgs;
+  w95fa-nerd-font = import ./w95fa-nerd-font pkgs;
 }

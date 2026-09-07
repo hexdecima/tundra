@@ -17,7 +17,7 @@ in stdenvNoCC.mkDerivation rec {
   in ''
     ${mkdir} -p ${outDir}
     for FILE in ${src}/fonts/ttf/*.ttf; do
-      ${lib.getExe nerd-font-patcher} -c -q --out ${outDir} $FILEa 2> /dev/null
+      ${lib.getExe nerd-font-patcher} -c -q --out ${outDir} $FILE 2> /dev/null
     done
   '';
   meta = let inherit (lib) licenses; in {

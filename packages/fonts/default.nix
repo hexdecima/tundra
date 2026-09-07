@@ -11,4 +11,5 @@ pkgs: {
   w95fa-nerd-font = import ./w95fa-nerd-font pkgs;
   quantico-nerd-font = import ./quantico-nerd-font pkgs;
   syne-mono-nerd-font = import ./syne-mono-nerd-font pkgs;
+  oxanium-nerd-font = import ./oxanium-nerd-font pkgs;
 }
